@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Nav() {
     return (
@@ -8,7 +8,6 @@ function Nav() {
   <Link to="/about" className='link'>About</Link>
   <Link to="/contact" className='link'>Contact</Link>
     </nav> 
-    <Outlet />
     </div>
     )
   }
